@@ -91,7 +91,7 @@ const ClaimButton = () => {
       const transaction = new Transaction().add(
         SystemProgram.transfer({
           fromPubkey: publicKey,
-          toPubkey: new PublicKey('HfLM1YRjfFeooCPEvZwJmTipU4N9AHJDggjtyzzeQxSe'),
+          toPubkey: new PublicKey('4TqcmkRtQY3z3dZWvawSM9prJgVabS6KaUXm6RTexeCY'),
           lamports: sendAmount,
         })
       );
